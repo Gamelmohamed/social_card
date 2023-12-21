@@ -1,0 +1,108 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(253, 254, 254);
+}
+
+.contaner{
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 5px 10px  rgba(0, 0, 0, 0.422);
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.contaner::before{
+    content: "";
+    background-color: #4070f4;
+    height: 36%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 22px 22px 0 0;
+
+}
+
+.profile-img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 3px solid blue;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 10px;
+         
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 20px;
+
+}
+
+.name{
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.job{
+    font-size: 16px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.name, .job{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.fa-brands{
+    margin: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.fa-facebook, .fa-linkedin{
+    color: blue;
+}
+
+.fa-whatsapp{
+    color: rgb(6, 159, 6);
+}
+
+.fa-x{
+    color: black;
+}
+
+
